@@ -45,17 +45,53 @@
 
 
     <section class = "section">    
-        <h2>Audio</h2>
+        <h2>Formulario</h2>
 
         <article>
-            <header>Musica Celta</header>
+            <header>Registro de clientes</header>
+            <br>
+            <form action="cliente/registro" method ="post">
 
-            <audio controls>
-                <source src="audios/musica.mp3" type="audio/mpeg">
-                Your browser does not support the <code>audio</code> tag.
-            </audio>
-            
-            
+                <fieldset>
+                    <legend>Datos del cliente</legend>  
+                    <br>
+
+                    <label for ="name">Nombre:</label>
+                    <input type="text" name="nombre" id="name" />
+
+                    <br>
+                    <br>
+
+                    <label for ="clave">Clave:</label>
+                    <input type="password" name="clave" id="clave" />
+
+                    <br>
+                    <br>
+
+                    <label for ="direccion">Direccion:</label>
+                    <textarea name="direccion" rows="2" cols="20" id ="direccion"></textarea>
+                    <br>
+                    <br>
+
+                    <label for ="edad">Edad:</label>
+                    <input type="number" name="edad" id="edad" max ="120" min="18"/>
+                    <br>
+                    <br>
+
+                    <label for ="email">Correo electronico:</label>
+                    <input type="email" name="correo" id="email"/>
+                    <br>
+                    <br>
+
+                    <input type ="submit">
+
+                </fieldset>
+
+
+
+            </form>
+
+
         </article>
 
 

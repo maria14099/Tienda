@@ -17,15 +17,59 @@ body{
         padding-left: 123px;
     */
 }
+.nav_menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav_menu_item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: max-content;
+}
+
+.nav_menu_link{
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+
+.nav_menu_link:hover{
+    background-color: lightcoral;
+    transition: 0.5s;
+}
+
 
 .header{
-    background-color: lightpink;
+    background-color: black;
     height: 80px;
     position: fixed;
     top: 0px;
     right: 0;
     left: 0px;
 }
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-height: 992px;
+    margin: 0 auto;
+}
+
+.logo{
+    
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.nav_link{
+    color: wheat;
+    text-decoration: none;
+}
+
 
 .aside {
     background-color: darkgoldenrod;
@@ -71,14 +115,10 @@ h2{
     text-align: right;
 }
 
-tbody tr:nth-child(odd){ 
+tbody tr:nth-child(odd){
     background-color: forestgreen;
 }
 
-tbody tr:nth-child(even){ 
+tbody tr:nth-child(even){
     background-color: salmon;
-}
-
-nav a{
-    color: blanchedalmond;
 }
