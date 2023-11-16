@@ -1,0 +1,84 @@
+/*Nombre: Carlos
+Esto es un comentario*/
+
+*{
+    margin :0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: lightblue;
+    font-family: serif;
+    padding: 80px 0px 20px 0px;
+    /*  padding-top: 10px;
+        padding-right: 43px;
+        padding-bottom: 14px;
+        padding-left: 123px;
+    */
+}
+
+.header{
+    background-color: lightpink;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0px;
+}
+
+.aside {
+    background-color: darkgoldenrod;
+    position: fixed;
+    top: 80px;
+    width: 20%;
+    bottom: 20px;
+}
+
+
+.section{
+    background-color: darkorchid;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    width: 80%;
+    bottom: 20px;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.footer{
+    background-color: khaki;
+    height: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+h3{
+    color: floralwhite;
+}
+
+
+h2{
+    color: fuchsia;
+}
+
+.texto_centrado{
+    text-align: center;
+}
+
+.texto_derecho{
+    text-align: right;
+}
+
+tbody tr:nth-child(odd){ 
+    background-color: forestgreen;
+}
+
+tbody tr:nth-child(even){ 
+    background-color: salmon;
+}
+
+nav a{
+    color: blanchedalmond;
+}
