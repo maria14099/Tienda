@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- Jonathan Quesada -->
+<html>
+    <head lang="es">
+        <title>GoOnline</title>
+        <meta charset="UTF-8">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <!-- 
+        <style>
+            h1 {
+                background-color: lightgreen;
+                font-family: sans-serif;
+            }
+            
+            p {
+                color: #ff7ae3;
+                background-color: lightcyan;
+            }
+        </style>
+        -->
+
+    </head>
+    <body>
+
+        <header class="header">
+            <h1>GoOnline</h1>
+            <!-- <h1 style="color: lightcoral; text-align: center" >GoOnline</h1> -->
+            <nav>
+                <a href="ejemplo5.html">Atras</a>
+                <a href="index_2.html">Home</a>
+                <a href="ejemplo1.html">Siguiente</a>
+            </nav>
+        </header>
+
+        <aside class="aside">
+            <h2>Noticias y ofertas</h2>
+            <p>PlayStation 5, Solo 6 unidades disponibles</p>
+            <p>Apple AirPods, 10% de descuento</p>
+        </aside>
+
+        <section class="contenido">
+            <h2>Formulario</h2>
+
+            <article>
+                <header>
+                    <h3>Registro de Clientes</h3>
+                </header>
+
+                <form action="cliente/registro" method="post">
+
+                    <fieldset>
+                        <legend>Datos del cliente</legend>
+
+                        <label for="name" >Nombre:</label>
+                        <input type="text" name="nombre" id="name"/>
+                        <br>
+                        <br>
+
+                        <label for="clave">Clave:</label>
+                        <input type="password" name="clave" id="clave" />
+                        <br>
+                        <br>
+                        
+                        <label for="direccion">Direccion:</label>
+                        <br>
+                        <textarea name="direccion" rows="3" cols="30" id="direccion"></textarea>
+                        <br>
+                        <br>
+                        
+                        <label for="edad">Edad:</label>
+                        <input type="number" name="edad" id="edad" max="120" min="18"/>
+                        <br>
+                        <br>
+                        
+                        <label for="correo">Correo:</label>
+                        <input type="email" name="correo" id="correo"/>
+                        <br>
+                        <br>         
+                        
+                        <input type="submit" value="Registrar">
+
+                    </fieldset>
+
+                </form>
+
+
+            </article>
+
+
+        </section>
+
+        <footer class="footer">
+            <p>Todos los derechos reservados &COPY; 2023 | GoOnline</p>
+        </footer>
+
+    </body>
+</html>
